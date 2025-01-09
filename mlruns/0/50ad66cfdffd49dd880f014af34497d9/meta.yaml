@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/0/50ad66cfdffd49dd880f014af34497d9/artifacts
+end_time: 1736451546983
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 50ad66cfdffd49dd880f014af34497d9
+run_name: train_model_2-model_2
+run_uuid: 50ad66cfdffd49dd880f014af34497d9
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1736451542586
+status: 3
+tags: []
+user_id: liss_
