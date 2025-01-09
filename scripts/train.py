@@ -44,7 +44,7 @@ def main():
         mlflow.log_metric("accuracy", accuracy)
 
         if task:
-            task.logger.report_scalar(title="Accuracy", series="Accuracy", value=accuracy, iteration=1)
+            task.logger.report_scalar(title="Accuracy", series="Accuracy", value=accuracy, iteration=20)
 
         mlflow.sklearn.log_model(model, artifact_path="logistic_regression")
 
