@@ -26,7 +26,7 @@ jobs:
 
       - name: Configure DVC Remote
         run: |
-           dvc remote add -d myremote s3://dvc-storage
+           dvc remote add -d -f myremote s3://dvc-storage
            
       - name: Configure DVC Remote
         run: |
