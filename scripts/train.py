@@ -9,7 +9,7 @@ from clearml import Task
 
 def main():
     parser = argparse.ArgumentParser(description="Train a logistic regression model")
-    parser.add_argument("--model-type", type=str, default="model_1", help="Type of model to train")
+    parser.add_argument("--model-type", type=str, default="model_2", help="Type of model to train")
     args = parser.parse_args()
 
     # Укажите трекинг URI для MLflow
