@@ -14,12 +14,24 @@
 ```
 .
 ├── ...
-├── docs            # вспомогательный, примеры использования 
-├── src
-│   ├── models      # классы инкапсулирующие работу с моделями
-│   ├── services    # слой бизнес-логики
-│   └── web         # web-client
-└── tests           # unit tests
+├── .dvc                        # data version control folder 
+├── .github                     # Метаданные и конфигурация DVC 
+│   └── workflows               # GitHub Actions Workflows для CI/CD
+│       └── dvc-ci.yml      
+├── data                        # Директория для хранения файлов данных
+│   ├── iris_dataset.csv        # Исходный датасет
+│   └── proc_iris_dataset.csv   # результат обработки
+├── docs                        # Вспомогательный, скриншоты выполнения
+├── scripts                     # Исходный код для обработки данных и обучения модели
+│   ├── download.py             # загрузка датасета
+│   ├── pipeline.py             # пайплайн ClearML
+│   ├── process_data.py         # обработка датасета
+│   └── train.py                # обучение модели, MLflow-эксперименты
+.dvcignore                      # Игнорировать файлы, которые не нужно коммитить в DVC
+dvc.lock                        # созданные DVC файлы
+dvc.yaml                        # созданные DVC файлы
+README.md                       # документация проекта
+requirements.txt                # зависимости
 ```
 
 ### Часть 1: управление данными с DVC
