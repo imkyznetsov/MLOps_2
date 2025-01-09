@@ -16,10 +16,10 @@ stages:
       size: 2928
     - path: scripts/process_data.py
       hash: md5
-      md5: 7b2561debe19023f1d27119a79cba5bc
-      size: 1264
+      md5: b306a01bd44e47483ddd596e58b3277e
+      size: 1225
     outs:
     - path: data/proc_iris_dataset.csv
       hash: md5
-      md5: d5c8c285a6517aa04a4863fadaf11b5a
-      size: 12288
+      md5: 5a95aae087b991a3197c8cade7479177
+      size: 12137
