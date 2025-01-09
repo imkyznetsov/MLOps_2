@@ -2,3 +2,6 @@
     remote = myremote
 ['remote "myremote"']
     url = s3://dvc-storage
+    access_key_id = YCAJEnrCFg6RutNdIKjbK7MFd
+    secret_access_key = YCNhHExY0Bg_wsmjA5cArALmOFTtT-RQmxhnrkTY
+    endpointurl = https://storage.yandexcloud.net
